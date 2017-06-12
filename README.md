@@ -10,12 +10,17 @@ Update your `composer.json` file to include this package as a dependency
 
 Laravel 5
 
-```json
-"davibennun/laravel-push-notification": "dev-laravel5"
+```bash
+composer require cutedogspark/laravel-push-notification:dev-laravel5
 ```
+
+```json
+"cutedogspark/laravel-push-notification": "dev-laravel5"
+```
+
 Laravel 4.*
 ```json
-"davibennun/laravel-push-notification": "dev-master"
+"cutedogspark/laravel-push-notification": "dev-master"
 ```
 
 Register the PushNotification service provider by adding it to the providers array.
@@ -40,7 +45,7 @@ Copy the config file into your project by running
 
 Laravel 5
 ```php
-php artisan vendor:publish --provider="Davibennun\LaravelPushNotification\LaravelPushNotificationServiceProvider" --tag="config"
+php artisan vendor:publish --provider="cutedogspark\LaravelPushNotification\LaravelPushNotificationServiceProvider" --tag="config"
 ```
 
 Laravel 4.*
